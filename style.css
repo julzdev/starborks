@@ -1,0 +1,386 @@
+:root {
+	--main-font:'Montserrat', sans-serif;
+	--main-bg: #f7f7f7;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--main-font);
+	background-color:var(--main-bg);
+}
+
+/* TOP NAVIGATION */
+.top-navigation {
+	background-color:#006341;
+}
+
+.top-navigation .btn {
+	border-radius:0px !important;
+	font-size:.85rem !important;
+	float:right !important;
+}
+
+.top-navigation .btn-primary{
+	background-color:#004F34;
+	border-color:#fff!important;
+}
+
+.top-navigation .btn-primary:hover {
+	background-color:#f7f7f7 !important;
+	border-color:none !important;
+	color:#000 !important;
+
+}
+
+/* LOCATION NAVIGATION */
+#utilities-list {
+	display: flex;
+	line-height:1;
+	margin: 1rem 0rem;
+	font-size:.75rem !important;
+}
+
+#utilities-list li {
+	list-style-type: none;
+	padding:0rem 1rem;
+}
+
+#utilities-list li a {
+	text-decoration: none;
+	color:#3d3a35;
+}
+
+/* NAVIGATION MENU */
+
+nav li a:hover{
+	border-bottom:3px solid #006341;
+	border-bottom-width:1px;
+	transition: 0.3s;
+}
+nav ul li {
+	font-size:.85rem !important;
+	text-transform: uppercase;
+}
+
+.main-menu ul li a{
+	color:#1C1D1D;
+}
+
+/*.main-menu ul li a:hover {
+	text-decoration: none;
+	border-bottom:3px solid #006341;
+	border-bottom-width:3px;
+}
+
+.main-menu ul li {
+	font-size:.85rem !important;
+	text-transform: uppercase;
+	padding-right:4rem;
+}*/
+
+nav {
+	background-color:#f7f7f7 !important;
+}
+
+/* MAIN HEADER*/
+
+.main-header {
+    background-color:#1E3932;
+    color:#fff;
+}
+
+#pad-top-bot {
+	padding:7rem 3rem;
+}
+
+.button-wrap {
+	margin: 1em 0 0;
+}
+.button-wrap .btn-outline-success {
+	border-radius:5px !important;
+	border-color:white !important;
+	color:white !important;
+}
+
+.btn-outline-success:hover {
+	background-color:white!important;
+	color:#3d3a35!important;
+	transition: 0.3s;
+}
+
+.main-header h1,h2 {
+	font-family: 'Courgette', cursive;
+}
+
+.main-header p {
+	font-size: .75rem;
+
+}
+
+/* ABOUT SECTION */
+
+.about-section p {
+	font-size: .75rem;
+}
+.about-section hr {
+	width:15% !important;
+	margin-left:0;
+	background-color:#006341;
+}
+
+.about-section {
+    background-color:#f0efed;
+    color:#242221;
+}
+
+.btn-outline-secondary {
+	border-radius:5px !important;
+	border-color:#242221 !important;
+	color:#242221 !important;
+}
+
+.btn-outline-secondary:hover {
+	background-color:#242221 !important;
+	color:white!important;
+	transition: 0.3s;
+}
+
+/* PRODUCT SECTION */
+
+.product-section hr {
+	width:10% !important;
+	background-color:#006341;
+}
+
+.product-section {
+    background-color:#f7f6f4;
+    padding: 5rem 0rem;
+    color:#242221;
+}
+
+.product-section h2 {
+	text-align: center;
+}
+
+/* CONTACT SECTION */
+
+.contact-section hr {
+	width:10% !important;
+	margin-bottom:1.5rem;
+	background-color:white;
+}
+
+.contact-section {
+    background-color:#f7f6f4;
+    padding: 3rem 0rem;
+    color:#242221;
+    background-size: cover;
+	background-image: url(./img/bg-how_to_brew.jpg);
+	background-position: 40% top;
+}
+
+.contact-section h2 {
+	text-align: center;
+}
+
+.bg-back {
+	background-size: cover;
+	background-image: url(./img/bg-how_to_brew.jpg) no-repeat;
+	background-position: 40% top;
+}
+
+/* SOCIAL CONTACT */
+
+.social-contact {
+	background-color:#fff;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  /*margin-top: 1px;*/ /* Add a top margin */
+  margin-bottom: 5px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #1C1D1D;
+  color: white;
+  padding: 12px 20px;
+  border:none;
+  border-color:red !important;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #cdcdcd;
+
+  color:black;
+  transition: 0.3s;
+}
+
+/* SUB FOOTER SECTION */
+
+.sub-footer {
+	background-color:#f0efed;
+    color:#242221;
+}
+
+.sub-social-icons {
+	display: flex;
+	list-style-type: none;
+}
+
+.sub-social-icons li {
+	padding: 0rem 1rem;
+}
+
+.sub-footer ul{
+	padding:0 !important;
+	margin: 1rem !important;
+}
+.sub-footer li a {
+	font-size:2rem;
+	color:#242221;
+}
+
+/* FOOTER SECTION */
+
+.footer-section {
+	background-color:#363738;
+	padding:.5rem 0rem;
+	color:#fff;
+	font-size:.75rem;
+	text-align:center;
+}
+
+form {
+	width:80%;
+}
+
+.contact-section h2 {
+	color:white;
+}
+
+/* NAV BAR */
+
+.navbar,
+.navbar-inverse {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  min-height: 91px;
+}
+
+.nav li {
+  display: inline;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 1.7em;
+  font-weight: 300;
+  padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: #444444;
+  transition: 0.7s all linear;
+  height: 100%;
+}
+
+/* BACK TO TOP */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: .75rem;
+  border: none;
+  outline: none;
+  background-color: #1C1D1D;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  cursor:pointer;
+  transition: 3s;
+  -moz-transition: 3s;
+  -webkit-transition: 3s; 
+  -o-transition: 3s; 		
+}
+
+#myBtn:hover {
+  background-color: #555;
+  cursor:pointer;
+  transition: 3s;
+  -moz-transition: 3s;
+  -webkit-transition: 3s; 
+  -o-transition: 3s; 	
+}
+
+
+.col-lg-6 {
+	padding:0;
+	margin:0;
+}
+
+
+
+
+@media only screen and (min-width : 320px) {
+	#utilities-list li a{
+		margin:0px;
+		font-size:12px !important;
+	}
+
+	#utilities-list li {
+		padding:0px;
+		padding-right:1rem;
+		margin:0px !important; 
+	}
+
+	ul#utilities-list {
+		padding:0px;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size:1.75rem;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	#utilities-list li a{
+		margin:0px;
+		font-size:16px !important;
+	}
+
+	#utilities-list li {
+		padding:0px;
+		padding-right:1rem;
+		margin:0px !important; 
+	}
+
+	ul#utilities-list {
+		padding:0px;
+	}
+}
